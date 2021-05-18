@@ -152,7 +152,7 @@ const Bill =() =>
                                             </div> 
 
                                             <div className ="col-md-4">
-                                            <button  className="btn btn-secondary"  onClick ={ (e) =>
+                                            <button  className="btn btn-outline-success"  onClick ={ (e) =>
                                                 {
                                                     handleRemove(e,i)
                                                 }}> REMOVE ITEM</button> 
@@ -165,10 +165,10 @@ const Bill =() =>
                    <br/> 
                     <div className ="row">
                         <div className ="col-md-6">
-                        <button  onClick ={handleAddItem}  className="btn btn-secondary">ADD MORE ITEMS</button>
+                        <button  onClick ={handleAddItem}  className="btn btn-outline-warning">ADD MORE ITEMS</button>
                         </div>
                         <div className ="col-md-6">
-                        <button  type ="submit" onClick ={generateBill}  className="btn btn-secondary">GENERATE BILL</button>
+                        <button  type ="submit" onClick ={generateBill}  className="btn btn-outline-warning">GENERATE BILL</button>
                         </div>
                     </div>
                         
