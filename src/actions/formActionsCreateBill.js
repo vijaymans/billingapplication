@@ -7,7 +7,7 @@ const formActionsCreateBill =(data) =>
    
      return ( (dispatch) =>
                         {
-                            axios.post('http://dct-billing-app.herokuapp.com/api/bills', 
+                            axios.post('https://dct-billing-app.herokuapp.com/api/bills', 
                             data , {
                                 headers : {
                                             'Authorization' : `Bearer ${token}`
