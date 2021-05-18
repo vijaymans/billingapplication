@@ -15,7 +15,7 @@ const formActionsProductUpdate =(formData) =>
      return (dispatch) =>
                         {
                             console.log('---------------------------')
-                             axios.put(`http://dct-billing-app.herokuapp.com/api/products/${formData.productId}`, 
+                             axios.put(`https://dct-billing-app.herokuapp.com/api/products/${formData.productId}`, 
                              formdata1 ,{
                              headers :{
                                 'Authorization' : `Bearer ${token}`

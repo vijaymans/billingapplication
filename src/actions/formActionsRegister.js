@@ -1,4 +1,4 @@
-import React from 'react'
+
 import axios from 'axios'
 import swal from 'sweetalert'
 
@@ -6,7 +6,7 @@ const StartStoreUser = (data) =>
 {
     
     return ( 
-                axios.post('http://dct-billing-app.herokuapp.com/api/users/register' , data.formData)
+                axios.post('https://dct-billing-app.herokuapp.com/api/users/register' , data.formData)
                 .then( (response) =>
                 {
                     const res = response.data

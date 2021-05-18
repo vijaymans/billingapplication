@@ -1,12 +1,11 @@
 import {React,useState,useEffect} from 'react'
-import Select from 'react-select'
+
 import {useSelector ,useDispatch} from 'react-redux'
 import formActionsCustomer from '../actions/formActionsCustomer'
 import formActionsProducts from '../actions/formActionsProducts'
 import formActionsCreateBill from '../actions/formActionsCreateBill'
 import formActionsgetBill from '../actions/formActionsgetBills'
-import swal from 'sweetalert'
-import CartTable from './BillTable'
+
 import BillTable from './BillTable'
 
 

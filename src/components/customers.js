@@ -5,7 +5,7 @@ import formActionsCustomer from '../actions/formActionsCustomer'
 import formActionsCustomerpost from '../actions/formActionsCustomerpost'
 import {useState,useEffect} from 'react'
 import {useSelector,useDispatch} from 'react-redux'
-import CustomerModal from './customermodal'
+//import CustomerModal from './customermodal'
 import swal from 'sweetalert'
 
 const Customers =() =>

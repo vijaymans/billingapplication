@@ -7,7 +7,7 @@ const formActionsProductpost =(data) =>
    
      return ( (dispatch) =>
                         {
-                            axios.post('http://dct-billing-app.herokuapp.com/api/products', 
+                            axios.post('https://dct-billing-app.herokuapp.com/api/products', 
                             data , {
                                 headers : {
                                             'Authorization' : `Bearer ${token}`

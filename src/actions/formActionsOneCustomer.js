@@ -7,7 +7,7 @@ const formActionsOneCustomer =(Data) =>
    
      return ( (dispatch) =>
                         {
-                            axios.get(`http://dct-billing-app.herokuapp.com/api/customers/${Data.customerId}`,{
+                            axios.get(`https://dct-billing-app.herokuapp.com/api/customers/${Data.customerId}`,{
                                 headers : {
                                             'Authorization' : `Bearer ${token}`
                                           }

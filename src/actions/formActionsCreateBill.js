@@ -24,7 +24,8 @@ const formActionsCreateBill =(data) =>
                                     swal(`${res.message}` , {'icon' : 'warning'} )
                                 }
                                  else{
-                                    
+
+                                    swal('bill generated successfully !!!' , {icon : "success"})
                                      dispatch(postBill(res))   
                                 } 
                                  
