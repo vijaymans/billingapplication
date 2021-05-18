@@ -11,7 +11,7 @@ const formActionsCustomerdelete =(Id) =>
      return (dispatch) =>
                         {
                             console.log('---------------------------')
-                             axios.delete(`http://dct-billing-app.herokuapp.com/api/customers/${Id}`, {
+                             axios.delete(`https://dct-billing-app.herokuapp.com/api/customers/${Id}`, {
                              headers :{
                                 'Authorization' : `Bearer ${token}`
                              }
